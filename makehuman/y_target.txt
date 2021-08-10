@@ -1,0 +1,10 @@
+eyebrows/eyebrows-trans-up
+eyes/r-eye-trans-up
+eyes/r-eye-corner1-up
+eyes/r-eye-corner2-up
+nose/nose-trans-up
+nose/nose-base-up
+nose/nose-septumangle-decr
+mouth/mouth-trans-up
+mouth/mouth-lowerlip-height-decr
+chin/chin-height-decr

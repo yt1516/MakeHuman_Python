@@ -1,0 +1,8 @@
+eyes/r-eye-height1-decr
+eyes/r-eye-height3-decr
+nose/nose-scale-vert-decr
+mouth/mouth-scale-vert-decr
+mouth/mouth-lowerlip-height-decr
+mouth/mouth-upperlip-height-decr
+mouth/mouth-lowerlip-volume-decr
+mouth/mouth-upperlip-volume-decr
