@@ -1,0 +1,36 @@
+{
+  "eyebrows": {}, 
+  "eyelashes": {}, 
+  "pose": {
+    "602": {
+      "modified": "2020-04-06 13:36:49", 
+      "file": "C:\\Users\\Jacob\\Documents\\makehuman\\v1\\data\\poses\\StandingDefault\\standingdefault.bvh"
+    }, 
+    "603": {
+      "modified": "2020-04-06 13:36:32", 
+      "file": "C:\\Users\\Jacob\\Documents\\makehuman\\v1\\data\\poses\\StandingNatural\\standingnatural.bvh"
+    }
+  }, 
+  "target": {
+    "804": {
+      "modified": "2019-07-14 20:49:35", 
+      "file": "C:\\Users\\Jacob\\Documents\\makehuman\\v1\\data\\custom\\close_lips.target"
+    }
+  }, 
+  "material": {}, 
+  "eyes": {}, 
+  "hair": {}, 
+  "proxy": {}, 
+  "teeth": {}, 
+  "skin": {}, 
+  "rig": {}, 
+  "model": {}, 
+  "expression": {}, 
+  "tongue": {}, 
+  "clothes": {
+    "1802": {
+      "modified": "2020-04-06 13:30:31", 
+      "file": "C:\\Users\\Jacob\\Documents\\makehuman\\v1\\data\\clothes\\Elvs_Jeans_straight_leg1\\mens_elv_jeans2slf.mhclo"
+    }
+  }
+}

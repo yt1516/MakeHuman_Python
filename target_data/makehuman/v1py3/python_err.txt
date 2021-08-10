@@ -1,0 +1,967 @@
+Initialized logging
+VERSION: UNKNOWN:UNKNOWN
+SHORT VERSION: beta2
+LONG VERSION: 1.2.0 beta2 (UNKNOWN:UNKNOWN)
+BASEMESH VERSION: hm08
+IS BUILT (FROZEN): No
+IS RELEASE VERSION: No
+DEFAULT ENCODING: utf-8
+FILESYSTEM ENCODING: utf-8
+STDOUT ENCODING: cp1252
+LOCALE PREFERRED ENCODING: cp1252
+WORKING DIRECTORY: C:\Users\Jacob\Documents\Morph Lab Research\MorphFace\MakeHuman\makehuman
+HOME LOCATION: C:/Users/Jacob/Documents
+PYTHON PATH: ./;./lib;./apps;./shared;./apps/gui;./core;C:\Users\Jacob\Documents\Morph Lab Research\MorphFace\MakeHuman\makehuman;C:\Users\Jacob\AppData\Local\Programs\Python\Python37\python37.zip;C:\Users\Jacob\AppData\Local\Programs\Python\Python37\DLLs;C:\Users\Jacob\AppData\Local\Programs\Python\Python37\lib;C:\Users\Jacob\AppData\Local\Programs\Python\Python37;C:\Users\Jacob\AppData\Roaming\Python\Python37\site-packages;C:\Users\Jacob\AppData\Local\Programs\Python\Python37\lib\site-packages;C:\Users\Jacob\AppData\Local\Programs\Python\Python37\lib\site-packages\dlib-19.21.0-py3.7-win-amd64.egg;C:\Users\Jacob\AppData\Local\Programs\Python\Python37\lib\site-packages\win32;C:\Users\Jacob\AppData\Local\Programs\Python\Python37\lib\site-packages\win32\lib;C:\Users\Jacob\AppData\Local\Programs\Python\Python37\lib\site-packages\Pythonwin
+DLL PATH: C:\Users\Jacob\AppData\Local\Programs\Python\Python37\lib\site-packages\PyQt5\Qt\bin;C:\Users\Jacob\AppData\Local\Programs\Python\Python37\lib\site-packages\pywin32_system32;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Oculus\Support\oculus-runtime;C:\Perl64\bin;C:\Users\Jacob\AppData\Roaming\ActiveState\bin;C:\Program Files (x86)\Pololu\Maestro\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\GnuWin32;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\MATLAB\R2020b\bin;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Jacob\Documents\cmake-3.18.2-win64-x64\bin;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\MATLAB\R2020a\runtime\win64;C:\Program Files\MATLAB\R2020a\bin;C:\Program Files\MATLAB\MATLAB Runtime\v98\runtime\win64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;"; C:\cygwin\bin";C:\Program Files\CMake\bin;C:\Users\Jacob\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Jacob\AppData\Local\Programs\Python\Python37\;C:\Users\Jacob\AppData\Local\Microsoft\WindowsApps;C:\Users\Jacob\AppData\Local\atom\bin;C:\Users\Jacob\AppData\Roaming\npm;C:\Users\Jacob\AppData\Local\GitHubDesktop\bin;C:\Users\Jacob\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Program Files\heroku\bin;C:\Users\Jacob\AppData\Local\Microsoft\WindowsApps;C:\Users\Jacob\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Jacob\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\IBM\SPSS\Statistics\25\JRE\bin
+SYS.VERSION: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+SYS.PLATFORM: win32
+SYS.EXECUTABLE: C:\Users\Jacob\AppData\Local\Programs\Python\Python37\python.exe
+PLATFORM.MACHINE: AMD64
+PLATFORM.PROCESSOR: Intel64 Family 6 Model 158 Stepping 12, GenuineIntel
+PLATFORM.UNAME.RELEASE: 10
+PLATFORM.WIN32_VER: 10 10.0.19041 SP0 Multiprocessor Free
+NUMPY.VERSION: 1.18.5
+No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+QT.VERSION: 5.12.3
+QT.JPG_SUPPORT: supported
+QT.SVG_SUPPORT: supported
+QT.PLUGIN_PATH: C:/Users/Jacob/AppData/Local/Programs/Python/Python37/lib/site-packages/PyQt5/Qt/plugins;C:/Users/Jacob/AppData/Local/Programs/Python/Python37
+QT.PLUGIN_PATH_ENV: 
+QT.CONF: NOT PRESENT
+PYOPENGL.VERSION: 3.1.5
+NOSHADERS: not set
+NOSAMPLEBUFFERS: not set
+GL.VENDOR: NVIDIA Corporation
+GL.RENDERER: NVIDIA GeForce RTX 2060/PCIe/SSE2
+GL.VERSION: 4.6.0 NVIDIA 466.77
+4.60 NVIDIA
+GLSL.VERSION: 4.60 NVIDIA
+GL.EXTENSION: GL_ARB_multisample enabled (4x samples)
+Creating new texture for image data/textures/texture_notfound.png.
+GL.EXTENSION: GL_ARB_texture_non_power_of_two enabled
+initTexture: 256, 256, False
+Setting language to english
+Setting language to english
+Initializing default theme first.
+Theme default version 1.2.0
+Loaded theme data/themes/default.mht
+Using Qt system style windowsvista
+Loading human
+Loading binary mesh data/3dobjs/base.npz.
+NPZ-File: maxmimum number of faces for one vertex: 5
+Loading material from file data/skins/default.mhmat
+Shader: adding built-in uniform b'gl_ModelViewProjectionMatrixTranspose'
+Shader: adding built-in uniform b'gl_NormalMatrix'
+Loaded vertex weights MakeHuman weights from file C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman/data/rigs/default_weights.mhw
+Loading scene
+Loading scene file: data/scenes/default.mhscene
+Loading main GUI
+Assigning setting loaddir value C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman that was loaded before the setting was declared.
+Assigning setting savedir value C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman that was loaded before the setting was declared.
+Assigning setting exportdir value C:/Users/Jacob/Documents/makehuman/v1py3/mhx2 that was loaded before the setting was declared.
+Loading plugins
+Importing plugin 0_modeling_0_modifiers
+Imported plugin 0_modeling_0_modifiers
+Loading plugin 0_modeling_0_modifiers
+Loading modifiers from data/modifiers/modeling_modifiers.json
+Attempting to load targets from NPZ file.
+1258 targets loaded from NPZ file succesfully.
+Loaded 249 modifiers from file data/modifiers/modeling_modifiers.json
+Loaded 249 modifier descriptions from file data/modifiers/modeling_modifiers_desc.json
+Loaded plugin 0_modeling_0_modifiers
+Importing plugin 0_modeling_8_random
+Imported plugin 0_modeling_8_random
+Loading plugin 0_modeling_8_random
+Loaded plugin 0_modeling_8_random
+Importing plugin 0_modeling_9_custom_targets
+Imported plugin 0_modeling_9_custom_targets
+Loading plugin 0_modeling_9_custom_targets
+Loaded plugin 0_modeling_9_custom_targets
+Importing plugin 0_modeling_a_measurement
+Imported plugin 0_modeling_a_measurement
+Loading plugin 0_modeling_a_measurement
+Loading modifiers from data/modifiers/measurement_modifiers.json
+Loaded 20 modifiers from file data/modifiers/measurement_modifiers.json
+Loaded 20 modifier descriptions from file data/modifiers/measurement_modifiers_desc.json
+Loaded plugin 0_modeling_a_measurement
+Importing plugin 0_modeling_background
+Imported plugin 0_modeling_background
+Loading plugin 0_modeling_background
+Loaded plugin 0_modeling_background
+Importing plugin 1_convert_model_tags
+Imported plugin 1_convert_model_tags
+Loading plugin 1_convert_model_tags
+Loaded plugin 1_convert_model_tags
+Importing plugin 1_mhapi
+Imported plugin 1_mhapi
+Loading plugin 1_mhapi
+Loaded plugin 1_mhapi
+Importing plugin 2_foot_posing
+Imported plugin 2_foot_posing
+Loading plugin 2_foot_posing
+Loaded plugin 2_foot_posing
+Importing plugin 2_posing_expression
+Imported plugin 2_posing_expression
+Loading plugin 2_posing_expression
+Loaded plugin 2_posing_expression
+Importing plugin 3_libraries_animation
+Imported plugin 3_libraries_animation
+Loading plugin 3_libraries_animation
+Loaded plugin 3_libraries_animation
+Importing plugin 3_libraries_clothes_chooser
+Imported plugin 3_libraries_clothes_chooser
+Loading plugin 3_libraries_clothes_chooser
+Loaded plugin 3_libraries_clothes_chooser
+Importing plugin 3_libraries_eye_chooser
+Imported plugin 3_libraries_eye_chooser
+Loading plugin 3_libraries_eye_chooser
+According to mh.getSysDataPath here's high poly eyes data/eyes/high-poly/high-poly.mhclo
+Selecting proxy file "data/eyes/high-poly/high-poly.mhclo" from eyes library.
+Loading binary proxy data/eyes/high-poly/high-poly.mhpxy.
+Loading proxy file: data/eyes/high-poly/high-poly.mhpxy.
+Loading material from file C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman/data/eyes/materials/brown.mhmat
+VectorUniform(AdditiveShading) = [0.]
+Shader: adding built-in uniform b'gl_ModelViewProjectionMatrixTranspose'
+Shader: adding built-in uniform b'gl_NormalMatrix'
+VectorUniform(AdditiveShading) = [0.]
+Loading binary mesh C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman/data/eyes/high-poly/high-poly.npz.
+NPZ-File: maxmimum number of faces for one vertex: 4
+remapping weights for proxy HighPolyEyes
+remapping weights for HighPolyEyes took 0.02854 seconds
+Loaded plugin 3_libraries_eye_chooser
+Importing plugin 3_libraries_eyebrows
+Imported plugin 3_libraries_eyebrows
+Loading plugin 3_libraries_eyebrows
+Loaded plugin 3_libraries_eyebrows
+Importing plugin 3_libraries_eyelashes
+Imported plugin 3_libraries_eyelashes
+Loading plugin 3_libraries_eyelashes
+Loaded plugin 3_libraries_eyelashes
+Importing plugin 3_libraries_material_chooser
+Imported plugin 3_libraries_material_chooser
+Loading plugin 3_libraries_material_chooser
+Loaded plugin 3_libraries_material_chooser
+Importing plugin 3_libraries_polygon_hair_chooser
+Imported plugin 3_libraries_polygon_hair_chooser
+Loading plugin 3_libraries_polygon_hair_chooser
+Loaded plugin 3_libraries_polygon_hair_chooser
+Importing plugin 3_libraries_pose
+Imported plugin 3_libraries_pose
+Loading plugin 3_libraries_pose
+Loaded plugin 3_libraries_pose
+Importing plugin 3_libraries_proxy_chooser
+Imported plugin 3_libraries_proxy_chooser
+Loading plugin 3_libraries_proxy_chooser
+Loaded plugin 3_libraries_proxy_chooser
+Importing plugin 3_libraries_skeleton
+Imported plugin 3_libraries_skeleton
+Loading plugin 3_libraries_skeleton
+Loaded plugin 3_libraries_skeleton
+Importing plugin 3_libraries_teeth
+Imported plugin 3_libraries_teeth
+Loading plugin 3_libraries_teeth
+Loaded plugin 3_libraries_teeth
+Importing plugin 3_libraries_tongue
+Imported plugin 3_libraries_tongue
+Loading plugin 3_libraries_tongue
+Loaded plugin 3_libraries_tongue
+Importing plugin 4_rendering_9_viewer
+Imported plugin 4_rendering_9_viewer
+Loading plugin 4_rendering_9_viewer
+Loaded plugin 4_rendering_9_viewer
+Importing plugin 4_rendering_opengl
+Imported plugin 4_rendering_opengl
+Loading plugin 4_rendering_opengl
+Assigning setting rendering_width value 1500 that was loaded before the setting was declared.
+Assigning setting rendering_height value 1500 that was loaded before the setting was declared.
+Assigning setting GL_RENDERER_SSS value False that was loaded before the setting was declared.
+Assigning setting GL_RENDERER_AA value True that was loaded before the setting was declared.
+Loaded plugin 4_rendering_opengl
+Importing plugin 4_rendering_scene
+Imported plugin 4_rendering_scene
+Loading plugin 4_rendering_scene
+Setting rendering_width is already declared. Adding it again has no effect.
+Setting rendering_height is already declared. Adding it again has no effect.
+Loaded plugin 4_rendering_scene
+Importing plugin 5_settings_0_settings
+Imported plugin 5_settings_0_settings
+Loading plugin 5_settings_0_settings
+Setting language to english
+Theme makehuman version 1.2.0
+Loaded theme data/themes/makehuman.mht
+Loaded Qt style data/themes/makehuman.qss
+Loaded plugin 5_settings_0_settings
+Importing plugin 5_settings_mouse
+Imported plugin 5_settings_mouse
+Loading plugin 5_settings_mouse
+Loaded plugin 5_settings_mouse
+Importing plugin 5_settings_shortcuts
+Imported plugin 5_settings_shortcuts
+Loading plugin 5_settings_shortcuts
+Loaded plugin 5_settings_shortcuts
+Importing plugin 5_settings_userplugins
+Imported plugin 5_settings_userplugins
+Loading plugin 5_settings_userplugins
+Loaded plugin 5_settings_userplugins
+Importing plugin 6_help
+Imported plugin 6_help
+Loading plugin 6_help
+Loaded plugin 6_help
+Importing plugin 7_PainFace_Generator
+Imported plugin 7_PainFace_Generator
+Loading plugin 7_PainFace_Generator
+Loaded plugin 7_PainFace_Generator
+Importing plugin 7_data
+Imported plugin 7_data
+Loading plugin 7_data
+Loaded plugin 7_data
+Importing plugin 7_example
+Imported plugin 7_example
+Loading plugin 7_example
+Loaded plugin 7_example
+Importing plugin 7_expression_mixer
+Imported plugin 7_expression_mixer
+Loading plugin 7_expression_mixer
+Loaded plugin 7_expression_mixer
+Importing plugin 7_face_matching
+Imported plugin 7_face_matching
+Loading plugin 7_face_matching
+Loaded plugin 7_face_matching
+Importing plugin 7_logging
+Imported plugin 7_logging
+Loading plugin 7_logging
+Loaded plugin 7_logging
+Importing plugin 7_material_editor
+Imported plugin 7_material_editor
+Loading plugin 7_material_editor
+Loaded plugin 7_material_editor
+Importing plugin 7_myexample
+Imported plugin 7_myexample
+Loading plugin 7_myexample
+['head', 'forehead', 'eyebrows', 'neck', 'eyes', 'nose', 'mouth', 'ears', 'chin', 'cheek']
+Loaded plugin 7_myexample
+Importing plugin 7_profile
+Imported plugin 7_profile
+Loading plugin 7_profile
+Loaded plugin 7_profile
+Importing plugin 7_save_targets
+Imported plugin 7_save_targets
+Loading plugin 7_save_targets
+Loaded plugin 7_save_targets
+Importing plugin 7_scene_editor
+Imported plugin 7_scene_editor
+Loading plugin 7_scene_editor
+Setting rendering_width is already declared. Adding it again has no effect.
+Setting rendering_height is already declared. Adding it again has no effect.
+Assigning setting Scene_Editor_FileDlgPath value C:/Users/Jacob/Documents/makehuman/v1py3/data/scenes that was loaded before the setting was declared.
+Loaded plugin 7_scene_editor
+Importing plugin 7_scripting
+Imported plugin 7_scripting
+Loading plugin 7_scripting
+Loaded plugin 7_scripting
+Importing plugin 7_shell
+Imported plugin 7_shell
+Loading plugin 7_shell
+Loaded plugin 7_shell
+Importing plugin 7_targets
+Imported plugin 7_targets
+Loading plugin 7_targets
+Loaded plugin 7_targets
+Importing plugin 8_FACSAnim
+Imported plugin 8_FACSAnim
+Loading plugin 8_FACSAnim
+Modifier group Head Positions does not exist.
+Modifier group Eye Positions does not exist.
+Modifier group Emotions Blender does not exist.
+Loaded plugin 8_FACSAnim
+Importing plugin 8_asset_downloader
+Imported plugin 8_asset_downloader
+Loading plugin 8_asset_downloader
+Loaded plugin 8_asset_downloader
+Importing plugin 9_FACS_scene_editor
+Imported plugin 9_FACS_scene_editor
+Loading plugin 9_FACS_scene_editor
+Setting Scene_Editor_FileDlgPath is already declared. Adding it again has no effect.
+Loaded plugin 9_FACS_scene_editor
+Importing plugin 9_export_bvh
+Imported plugin 9_export_bvh
+Loading plugin 9_export_bvh
+Loaded plugin 9_export_bvh
+Importing plugin 9_export_collada
+Imported plugin 9_export_collada
+Loading plugin 9_export_collada
+Loaded plugin 9_export_collada
+Importing plugin 9_export_fbx
+Imported plugin 9_export_fbx
+Loading plugin 9_export_fbx
+Loaded plugin 9_export_fbx
+Importing plugin 9_export_light
+Imported plugin 9_export_light
+Loading plugin 9_export_light
+Loaded plugin 9_export_light
+Importing plugin 9_export_mhx2
+Imported plugin 9_export_mhx2
+Loading plugin 9_export_mhx2
+Loaded plugin 9_export_mhx2
+Importing plugin 9_export_obj
+Imported plugin 9_export_obj
+Loading plugin 9_export_obj
+Loaded plugin 9_export_obj
+Importing plugin 9_export_ogre
+Imported plugin 9_export_ogre
+Loading plugin 9_export_ogre
+Loaded plugin 9_export_ogre
+Importing plugin 9_export_stl
+Imported plugin 9_export_stl
+Loading plugin 9_export_stl
+Loaded plugin 9_export_stl
+Importing plugin 9_export_uvmap
+Imported plugin 9_export_uvmap
+Loading plugin 9_export_uvmap
+Loaded plugin 9_export_uvmap
+Loading GUI
+showing category Modelling
+showing task Macro modelling
+Loading theme
+Theme makehuman version 1.2.0
+Loaded theme data/themes/makehuman.mht
+Loaded Qt style data/themes/makehuman.qss
+Applying targets
+Updating skeleton joint positions
+Done baking animations
+Loading macro targets
+Loading done
+
+Creating new texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Creating new texture for image C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman/data/eyes/materials/brown_eye.png.
+initTexture: 1024, 1024, False
+Creating new texture for image C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman/data/litspheres/skinmat_eye.png.
+initTexture: 256, 256, False
+hiding category Modelling
+showing category Files
+hiding task Macro modelling
+showing task Load
+Loading human from MHM file C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman\MH_Chicago_Front_Avg\White_Men.mhm.
+Loading skeleton from None
+Loading special foot pose from None
+Loading expression from None
+Clothes library: updating face masks (face hiding enabled).
+0 faces masked for base.obj
+Selecting proxy file "data/eyes/high-poly/high-poly.mhclo" from eyes library.
+Loading binary proxy data/eyes/high-poly/high-poly.mhpxy.
+Loading proxy file: data/eyes/high-poly/high-poly.mhpxy.
+Loading material from file C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman/data/eyes/materials/brown.mhmat
+Loading binary mesh C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman/data/eyes/high-poly/high-poly.npz.
+NPZ-File: maxmimum number of faces for one vertex: 4
+remapping weights for proxy HighPolyEyes
+remapping weights for HighPolyEyes took 0.02705 seconds
+Eye material reset to <material.Material object at 0x0000025A9E1ACD30>
+Version v1.2.0
+Selecting proxy file "C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman/data/hair/short04/short04.mhpxy" from hair library.
+Loading binary proxy C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman/data/hair/short04/short04.mhpxy.
+Loading proxy file: C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman/data/hair/short04/short04.mhpxy.
+Loading material from file C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman/data/hair/short04/short04.mhmat
+Shader: adding built-in uniform b'gl_ModelViewProjectionMatrixTranspose'
+Shader: adding built-in uniform b'gl_NormalMatrix'
+VectorUniform(AdditiveShading) = [0.]
+Shader: adding built-in uniform b'gl_ModelViewProjectionMatrixTranspose'
+Shader: adding built-in uniform b'gl_NormalMatrix'
+VectorUniform(AdditiveShading) = [0.]
+Loading binary mesh C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman/data/hair/short04/short04.npz.
+NPZ-File: maxmimum number of faces for one vertex: 5
+remapping weights for proxy short04
+remapping weights for short04 took 0.03172 seconds
+Selecting proxy file "C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman/data/eyebrows/eyebrow012/eyebrow012.mhpxy" from eyebrows library.
+Loading binary proxy C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman/data/eyebrows/eyebrow012/eyebrow012.mhpxy.
+Loading proxy file: C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman/data/eyebrows/eyebrow012/eyebrow012.mhpxy.
+Loading material from file C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman/data/eyebrows/eyebrow012/eyebrow012.mhmat
+VectorUniform(ambient) = [0. 0. 0.]
+VectorUniform(diffuse) = [0. 0. 0. 0.]
+VectorUniform(emissive) = [0. 0. 0.]
+VectorUniform(specular) = [0. 0. 0. 0.]
+Shader: adding built-in uniform b'gl_FrontLightModelProduct.sceneColor'
+Shader: adding built-in uniform b'gl_FrontMaterial.ambient'
+Shader: adding built-in uniform b'gl_LightSource[0].ambient'
+Shader: adding built-in uniform b'gl_LightSource[0].diffuse'
+Shader: adding built-in uniform b'gl_LightSource[0].halfVector'
+Shader: adding built-in uniform b'gl_LightSource[0].position'
+Shader: adding built-in uniform b'gl_LightSource[0].specular'
+Shader: adding built-in uniform b'gl_ModelViewMatrix'
+Shader: adding built-in uniform b'gl_ModelViewProjectionMatrixTranspose'
+Shader: adding built-in uniform b'gl_NormalMatrix'
+VectorUniform(ambient) = [0. 0. 0.]
+VectorUniform(diffuse) = [0. 0. 0. 0.]
+VectorUniform(emissive) = [0. 0. 0.]
+VectorUniform(specular) = [0. 0. 0. 0.]
+VectorUniform(ambient) = [0. 0. 0.]
+VectorUniform(diffuse) = [0. 0. 0. 0.]
+VectorUniform(emissive) = [0. 0. 0.]
+VectorUniform(specular) = [0. 0. 0. 0.]
+Shader: adding built-in uniform b'gl_FrontLightModelProduct.sceneColor'
+Shader: adding built-in uniform b'gl_FrontMaterial.ambient'
+Shader: adding built-in uniform b'gl_LightSource[0].ambient'
+Shader: adding built-in uniform b'gl_LightSource[0].diffuse'
+Shader: adding built-in uniform b'gl_LightSource[0].halfVector'
+Shader: adding built-in uniform b'gl_LightSource[0].position'
+Shader: adding built-in uniform b'gl_LightSource[0].specular'
+Shader: adding built-in uniform b'gl_ModelViewMatrix'
+Shader: adding built-in uniform b'gl_ModelViewProjectionMatrixTranspose'
+Shader: adding built-in uniform b'gl_NormalMatrix'
+VectorUniform(ambient) = [0. 0. 0.]
+VectorUniform(diffuse) = [0. 0. 0. 0.]
+VectorUniform(emissive) = [0. 0. 0.]
+VectorUniform(specular) = [0. 0. 0. 0.]
+Loading binary mesh C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman/data/eyebrows/eyebrow012/eyebrow012.npz.
+NPZ-File: maxmimum number of faces for one vertex: 4
+remapping weights for proxy eyebrow012
+remapping weights for eyebrow012 took 0.02505 seconds
+Selecting proxy file "C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman/data/eyes/high-poly/high-poly.mhpxy" from eyes library.
+Loading binary proxy C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman/data/eyes/high-poly/high-poly.mhpxy.
+Loading proxy file: C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman/data/eyes/high-poly/high-poly.mhpxy.
+Loading material from file C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman/data/eyes/materials/brown.mhmat
+Proxy with UUID 2c12f43b-1303-432c-b7ce-d78346baf2e6 (C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman/data/eyes/high-poly/high-poly.mhpxy) already loaded in eyes library. Skipping.
+Loading material from file C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman/data/skins/middleage_caucasian_male/middleage_caucasian_male.mhmat
+Loading material from file C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman/data/hair/short04/short04.mhmat
+Loading material from file C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman/data/eyes/materials/brown.mhmat
+Loading material from file C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman/data/eyebrows/eyebrow012/eyebrow012.mhmat
+Finalizing MHM loading.
+Clothes library: updating face masks (face hiding enabled).
+0 faces masked for base.obj
+Updating skeleton joint positions
+Done baking animations
+Applying Catmull-Clark subdivision on base.obj.
+--Step 0/20: 
+--  took 0.0010 seconds
+--Step 1/20: 
+--  took 0.0000 seconds
+--Step 2/20: 
+--  took 0.0010 seconds
+--Step 3/20: 
+--  took 0.0010 seconds
+--Step 4/20: 
+--  took 0.0010 seconds
+--Step 5/20: 
+--  took 0.0160 seconds
+--Step 6/20: 
+--  took 0.0010 seconds
+--Step 7/20: 
+--  took 0.0000 seconds
+--Step 8/20: 
+--  took 0.0010 seconds
+--Step 9/20: 
+--  took 0.0189 seconds
+--Step 10/20: 
+--  took 0.0020 seconds
+--Step 11/20: 
+--  took 0.0010 seconds
+--Step 12/20: 
+--  took 0.0010 seconds
+--Step 13/20: 
+--  took 0.8049 seconds
+--Step 14/20: 
+--  took 0.0349 seconds
+--Step 15/20: 
+--  took 0.0030 seconds
+--Step 16/20: 
+--  took 0.0170 seconds
+--Step 17/20: 
+--  took 0.0399 seconds
+--Step 18/20: 
+--  took 0.0040 seconds
+--Step 19/20: 
+--  took 0.0578 seconds
+--Step 20/20: 
+Applying Catmull-Clark subdivision on short04.obj.
+--Step 0/20: 
+--  took 0.0000 seconds
+--Step 1/20: 
+--  took 0.0000 seconds
+--Step 2/20: 
+--  took 0.0000 seconds
+--Step 3/20: 
+--  took 0.0010 seconds
+--Step 4/20: 
+--  took 0.0000 seconds
+--Step 5/20: 
+--  took 0.0010 seconds
+--Step 6/20: 
+--  took 0.0000 seconds
+--Step 7/20: 
+--  took 0.0010 seconds
+--Step 8/20: 
+--  took 0.0000 seconds
+--Step 9/20: 
+--  took 0.0020 seconds
+--Step 10/20: 
+--  took 0.0000 seconds
+--Step 11/20: 
+--  took 0.0015 seconds
+--Step 12/20: 
+--  took 0.0000 seconds
+--Step 13/20: 
+--  took 0.0319 seconds
+--Step 14/20: 
+--  took 0.0010 seconds
+--Step 15/20: 
+--  took 0.0010 seconds
+--Step 16/20: 
+--  took 0.0010 seconds
+--Step 17/20: 
+--  took 0.0020 seconds
+--Step 18/20: 
+--  took 0.0010 seconds
+--Step 19/20: 
+--  took 0.0040 seconds
+--Step 20/20: 
+Applying Catmull-Clark subdivision on high-poly.obj.
+--Step 0/20: 
+--  took 0.0000 seconds
+--Step 1/20: 
+--  took 0.0010 seconds
+--Step 2/20: 
+--  took 0.0000 seconds
+--Step 3/20: 
+--  took 0.0000 seconds
+--Step 4/20: 
+--  took 0.0010 seconds
+--Step 5/20: 
+--  took 0.0010 seconds
+--Step 6/20: 
+--  took 0.0013 seconds
+--Step 7/20: 
+--  took 0.0007 seconds
+--Step 8/20: 
+--  took 0.0000 seconds
+--Step 9/20: 
+--  took 0.0020 seconds
+--Step 10/20: 
+--  took 0.0000 seconds
+--Step 11/20: 
+--  took 0.0000 seconds
+--Step 12/20: 
+--  took 0.0010 seconds
+--Step 13/20: 
+--  took 0.0609 seconds
+--Step 14/20: 
+--  took 0.0030 seconds
+--Step 15/20: 
+--  took 0.0000 seconds
+--Step 16/20: 
+--  took 0.0020 seconds
+--Step 17/20: 
+--  took 0.0030 seconds
+--Step 18/20: 
+--  took 0.0000 seconds
+--Step 19/20: 
+--  took 0.0050 seconds
+--Step 20/20: 
+Applying Catmull-Clark subdivision on eyebrow012.obj.
+--Step 0/20: 
+--  took 0.0000 seconds
+--Step 1/20: 
+--  took 0.0000 seconds
+--Step 2/20: 
+--  took 0.0000 seconds
+--Step 3/20: 
+--  took 0.0010 seconds
+--Step 4/20: 
+--  took 0.0000 seconds
+--Step 5/20: 
+--  took 0.0000 seconds
+--Step 6/20: 
+--  took 0.0010 seconds
+--Step 7/20: 
+--  took 0.0000 seconds
+--Step 8/20: 
+--  took 0.0000 seconds
+--Step 9/20: 
+--  took 0.0010 seconds
+--Step 10/20: 
+--  took 0.0000 seconds
+--Step 11/20: 
+--  took 0.0000 seconds
+--Step 12/20: 
+--  took 0.0000 seconds
+--Step 13/20: 
+--  took 0.0060 seconds
+--Step 14/20: 
+--  took 0.0010 seconds
+--Step 15/20: 
+--  took 0.0000 seconds
+--Step 16/20: 
+--  took 0.0010 seconds
+--Step 17/20: 
+--  took 0.0010 seconds
+--Step 18/20: 
+--  took 0.0000 seconds
+--Step 19/20: 
+--  took 0.0010 seconds
+--Step 20/20: 
+VectorUniform(AdditiveShading) = [0.]
+Shader: adding built-in uniform b'gl_ModelViewProjectionMatrixTranspose'
+Shader: adding built-in uniform b'gl_NormalMatrix'
+VectorUniform(AdditiveShading) = [0.]
+Done loading MHM file.
+Creating new texture for image C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman/data/skins/textures/middleage_lightskinned_male_diffuse.png.
+initTexture: 2048, 2048, False
+Creating new texture for image C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman/data/litspheres/lit_standard_skin.png.
+initTexture: 256, 256, False
+VectorUniform(ambient) = [0. 0. 0.]
+VectorUniform(diffuse) = [0. 0. 0. 0.]
+VectorUniform(emissive) = [0. 0. 0.]
+VectorUniform(specular) = [0. 0. 0. 0.]
+Shader: adding built-in uniform b'gl_FrontLightModelProduct.sceneColor'
+Shader: adding built-in uniform b'gl_FrontMaterial.ambient'
+Shader: adding built-in uniform b'gl_LightSource[0].ambient'
+Shader: adding built-in uniform b'gl_LightSource[0].diffuse'
+Shader: adding built-in uniform b'gl_LightSource[0].halfVector'
+Shader: adding built-in uniform b'gl_LightSource[0].position'
+Shader: adding built-in uniform b'gl_LightSource[0].specular'
+Shader: adding built-in uniform b'gl_ModelViewMatrix'
+Shader: adding built-in uniform b'gl_ModelViewProjectionMatrixTranspose'
+Shader: adding built-in uniform b'gl_NormalMatrix'
+VectorUniform(ambient) = [0. 0. 0.]
+VectorUniform(diffuse) = [0. 0. 0. 0.]
+VectorUniform(emissive) = [0. 0. 0.]
+VectorUniform(specular) = [0. 0. 0. 0.]
+Creating new texture for image C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman/data/eyebrows/eyebrow012/eyebrow012.png.
+initTexture: 512, 512, False
+Creating new texture for image C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman/data/hair/short04/short04_diffuse.png.
+initTexture: 2048, 2048, False
+Creating new texture for image C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman/data/litspheres/lit_refl_sharp_aniso_hard.png.
+initTexture: 256, 256, False
+hiding category Files
+showing category Settings
+hiding task Load
+showing task General
+hiding category Settings
+showing category Utilities
+hiding task General
+showing task Data
+hiding category Utilities
+showing category Modelling
+hiding task Data
+showing task Macro modelling
+hiding task Macro modelling
+showing task Face Dimensions
+hiding task Face Dimensions
+showing task Pain Face Generator
+compiled file missing: ../../../../../makehuman/v1py3/data/FACSHuman/01 Upper Face AUs/4.index
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+compiled file missing: ../../../../../makehuman/v1py3/data/FACSHuman/01 Upper Face AUs/7.index
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+compiled file missing: ../../../../../makehuman/v1py3/data/FACSHuman/02 Lower Face AUs/9.index
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+compiled file missing: ../../../../../makehuman/v1py3/data/FACSHuman/02 Lower Face AUs/10.index
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+compiled file missing: ../../../../../makehuman/v1py3/data/FACSHuman/03 Lip Parting and Jaw Opening/26.index
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+compiled file missing: ../../../../../makehuman/v1py3/data/FACSHuman/01 Upper Face AUs/43.index
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+hiding task Pain Face Generator
+showing task Face
+hiding category Modelling
+showing category Geometries
+hiding task Face
+showing task Clothes
+hiding task Clothes
+showing task Teeth
+Selecting proxy file "data/teeth\teeth_base\teeth_base.mhpxy" from teeth library.
+Loading binary proxy data/teeth\teeth_base\teeth_base.mhpxy.
+Loading proxy file: data/teeth\teeth_base\teeth_base.mhpxy.
+Loading material from file C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman/data/teeth/materials/teeth.mhmat
+Loading binary mesh C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman/data/teeth/teeth_base/teeth_base.npz.
+NPZ-File: maxmimum number of faces for one vertex: 5
+Applying Catmull-Clark subdivision on teeth_base.obj.
+Step 0/20: 
+  took 0.0000 seconds
+Step 1/20: 
+  took 0.0000 seconds
+Step 2/20: 
+  took 0.0000 seconds
+Step 3/20: 
+  took 0.0010 seconds
+Step 4/20: 
+  took 0.0000 seconds
+Step 5/20: 
+  took 0.0040 seconds
+Step 6/20: 
+  took 0.0000 seconds
+Step 7/20: 
+  took 0.0010 seconds
+Step 8/20: 
+  took 0.0000 seconds
+Step 9/20: 
+  took 0.0050 seconds
+Step 10/20: 
+  took 0.0010 seconds
+Step 11/20: 
+  took 0.0000 seconds
+Step 12/20: 
+  took 0.0000 seconds
+Step 13/20: 
+  took 0.2134 seconds
+Step 14/20: 
+  took 0.0080 seconds
+Step 15/20: 
+  took 0.0010 seconds
+Step 16/20: 
+  took 0.0050 seconds
+Step 17/20: 
+  took 0.0110 seconds
+Step 18/20: 
+  took 0.0010 seconds
+Step 19/20: 
+  took 0.0170 seconds
+Step 20/20: 
+Total time taken: 0.2682821750640869 seconds.
+remapping weights for proxy Teeth_Base
+remapping weights for Teeth_Base took 0.03746 seconds
+do Change teeth
+Creating new texture for image C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman/data/teeth/materials/teeth.png.
+initTexture: 2048, 2048, False
+hiding task Teeth
+showing task Tongue
+Selecting proxy file "data/tongue\tongue01\tongue01.mhpxy" from tongue library.
+Loading binary proxy data/tongue\tongue01\tongue01.mhpxy.
+Loading proxy file: data/tongue\tongue01\tongue01.mhpxy.
+Loading material from file C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman/data/tongue/tongue01/tongue01.mhmat
+Loading binary mesh C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman/data/tongue/tongue01/tongue01.npz.
+NPZ-File: maxmimum number of faces for one vertex: 4
+Applying Catmull-Clark subdivision on tongue01.obj.
+Step 0/20: 
+  took 0.0000 seconds
+Step 1/20: 
+  took 0.0000 seconds
+Step 2/20: 
+  took 0.0000 seconds
+Step 3/20: 
+  took 0.0010 seconds
+Step 4/20: 
+  took 0.0000 seconds
+Step 5/20: 
+  took 0.0000 seconds
+Step 6/20: 
+  took 0.0010 seconds
+Step 7/20: 
+  took 0.0000 seconds
+Step 8/20: 
+  took 0.0000 seconds
+Step 9/20: 
+  took 0.0010 seconds
+Step 10/20: 
+  took 0.0000 seconds
+Step 11/20: 
+  took 0.0000 seconds
+Step 12/20: 
+  took 0.0000 seconds
+Step 13/20: 
+  took 0.0130 seconds
+Step 14/20: 
+  took 0.0010 seconds
+Step 15/20: 
+  took 0.0000 seconds
+Step 16/20: 
+  took 0.0010 seconds
+Step 17/20: 
+  took 0.0010 seconds
+Step 18/20: 
+  took 0.0000 seconds
+Step 19/20: 
+  took 0.0010 seconds
+Step 20/20: 
+Total time taken: 0.019945621490478516 seconds.
+remapping weights for proxy tongue01
+remapping weights for tongue01 took 0.02530 seconds
+do Change tongue
+Creating new texture for image C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman/data/tongue/tongue01/tongue01_diffuse.png.
+initTexture: 1024, 1024, False
+Creating new texture for image C:/Users/Jacob/Documents/Morph Lab Research/MorphFace/MakeHuman/makehuman/data/litspheres/lit_matte.png.
+initTexture: 256, 256, False
+hiding category Geometries
+showing category Modelling
+hiding task Tongue
+showing task Face
+hiding category Modelling
+showing category Rendering
+hiding task Face
+showing task Render
+hiding category Rendering
+showing category Pose/Animate
+hiding task Render
+showing task Skeleton
+Loading material from file data/materials/xray.mhmat
+VectorUniform(ambient) = [0. 0. 0.]
+VectorUniform(edgefalloff) = [1.]
+VectorUniform(intensity) = [0.7]
+Shader: adding built-in uniform b'gl_ModelViewMatrix'
+Shader: adding built-in uniform b'gl_ModelViewProjectionMatrix'
+Shader: adding built-in uniform b'gl_NormalMatrix'
+VectorUniform(ambient) = [0. 0. 0.]
+VectorUniform(edgefalloff) = [1.]
+VectorUniform(intensity) = [0.7]
+hiding category Pose/Animate
+showing category Materials
+hiding task Skeleton
+showing task Material
+hiding category Materials
+showing category Geometries
+hiding task Material
+showing task Tongue
+hiding category Geometries
+showing category Modelling
+hiding task Tongue
+showing task Face
+hiding task Face
+showing task Pain Face Generator
+Updating skeleton joint positions
+Done baking animations
+Image saved to C:/Users/Jacob/Documents/makehuman/v1py3/grab\grab_2021-06-25_19.50.45.png
+ABOUT TO STOP APPLICATION
+Unloading plugin 0_modeling_0_modifiers
+Unloaded plugin 0_modeling_0_modifiers
+Unloading plugin 0_modeling_8_random
+Unloaded plugin 0_modeling_8_random
+Unloading plugin 0_modeling_9_custom_targets
+Unloaded plugin 0_modeling_9_custom_targets
+Unloading plugin 0_modeling_a_measurement
+Unloaded plugin 0_modeling_a_measurement
+Unloading plugin 0_modeling_background
+Unloaded plugin 0_modeling_background
+Unloading plugin 1_convert_model_tags
+Unloaded plugin 1_convert_model_tags
+Unloading plugin 1_mhapi
+Unloaded plugin 1_mhapi
+Unloading plugin 2_foot_posing
+Unloaded plugin 2_foot_posing
+Unloading plugin 2_posing_expression
+Unloaded plugin 2_posing_expression
+Unloading plugin 3_libraries_animation
+Unloaded plugin 3_libraries_animation
+Unloading plugin 3_libraries_clothes_chooser
+Unloaded plugin 3_libraries_clothes_chooser
+Unloading plugin 3_libraries_eye_chooser
+Unloaded plugin 3_libraries_eye_chooser
+Unloading plugin 3_libraries_eyebrows
+Unloaded plugin 3_libraries_eyebrows
+Unloading plugin 3_libraries_eyelashes
+Unloaded plugin 3_libraries_eyelashes
+Unloading plugin 3_libraries_material_chooser
+Unloaded plugin 3_libraries_material_chooser
+Unloading plugin 3_libraries_polygon_hair_chooser
+Unloaded plugin 3_libraries_polygon_hair_chooser
+Unloading plugin 3_libraries_pose
+Unloaded plugin 3_libraries_pose
+Unloading plugin 3_libraries_proxy_chooser
+Unloaded plugin 3_libraries_proxy_chooser
+Unloading plugin 3_libraries_skeleton
+Unloaded plugin 3_libraries_skeleton
+Unloading plugin 3_libraries_teeth
+Unloaded plugin 3_libraries_teeth
+Unloading plugin 3_libraries_tongue
+Unloaded plugin 3_libraries_tongue
+Unloading plugin 4_rendering_9_viewer
+Unloaded plugin 4_rendering_9_viewer
+Unloading plugin 4_rendering_opengl
+Unloaded plugin 4_rendering_opengl
+Unloading plugin 4_rendering_scene
+Unloaded plugin 4_rendering_scene
+Unloading plugin 5_settings_0_settings
+Unloaded plugin 5_settings_0_settings
+Unloading plugin 5_settings_mouse
+Unloaded plugin 5_settings_mouse
+Unloading plugin 5_settings_shortcuts
+Unloaded plugin 5_settings_shortcuts
+Unloading plugin 5_settings_userplugins
+Unloaded plugin 5_settings_userplugins
+Unloading plugin 6_help
+Unloaded plugin 6_help
+Unloading plugin 7_PainFace_Generator
+Unloaded plugin 7_PainFace_Generator
+Unloading plugin 7_data
+Unloaded plugin 7_data
+Unloading plugin 7_example
+Unloaded plugin 7_example
+Unloading plugin 7_expression_mixer
+Unloaded plugin 7_expression_mixer
+Unloading plugin 7_face_matching
+Unloaded plugin 7_face_matching
+Unloading plugin 7_logging
+Unloaded plugin 7_logging
+Unloading plugin 7_material_editor
+Unloaded plugin 7_material_editor
+Unloading plugin 7_myexample
+Unloaded plugin 7_myexample
+Unloading plugin 7_profile
+Unloaded plugin 7_profile
+Unloading plugin 7_save_targets
+Unloaded plugin 7_save_targets
+Unloading plugin 7_scene_editor
+Unloaded plugin 7_scene_editor
+Unloading plugin 7_scripting
+Unloaded plugin 7_scripting
+Unloading plugin 7_shell
+Unloaded plugin 7_shell
+Unloading plugin 7_targets
+Unloaded plugin 7_targets
+Unloading plugin 8_FACSAnim
+Unloaded plugin 8_FACSAnim
+Unloading plugin 8_asset_downloader
+Unloaded plugin 8_asset_downloader
+Unloading plugin 9_FACS_scene_editor
+Unloaded plugin 9_FACS_scene_editor
+Unloading plugin 9_export_bvh
+Unloaded plugin 9_export_bvh
+Unloading plugin 9_export_collada
+Unloaded plugin 9_export_collada
+Unloading plugin 9_export_fbx
+Unloaded plugin 9_export_fbx
+Unloading plugin 9_export_light
+Unloaded plugin 9_export_light
+Unloading plugin 9_export_mhx2
+Unloaded plugin 9_export_mhx2
+Unloading plugin 9_export_obj
+Unloaded plugin 9_export_obj
+Unloading plugin 9_export_ogre
+Unloaded plugin 9_export_ogre
+Unloading plugin 9_export_stl
+Unloaded plugin 9_export_stl
+Unloading plugin 9_export_uvmap
+Unloaded plugin 9_export_uvmap

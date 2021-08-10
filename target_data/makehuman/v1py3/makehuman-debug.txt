@@ -1,0 +1,37 @@
+VERSION: UNKNOWN:UNKNOWN
+SHORT VERSION: beta2
+LONG VERSION: 1.2.0 beta2 (UNKNOWN:UNKNOWN)
+BASEMESH VERSION: hm08
+IS BUILT (FROZEN): No
+IS RELEASE VERSION: No
+DEFAULT ENCODING: utf-8
+FILESYSTEM ENCODING: utf-8
+STDOUT ENCODING: cp1252
+LOCALE PREFERRED ENCODING: cp1252
+WORKING DIRECTORY: C:\Users\Jacob\Documents\Morph Lab Research\MorphFace\MakeHuman\makehuman
+HOME LOCATION: C:/Users/Jacob/Documents
+PYTHON PATH: ./;./lib;./apps;./shared;./apps/gui;./core;C:\Users\Jacob\Documents\Morph Lab Research\MorphFace\MakeHuman\makehuman;C:\Users\Jacob\AppData\Local\Programs\Python\Python37\python37.zip;C:\Users\Jacob\AppData\Local\Programs\Python\Python37\DLLs;C:\Users\Jacob\AppData\Local\Programs\Python\Python37\lib;C:\Users\Jacob\AppData\Local\Programs\Python\Python37;C:\Users\Jacob\AppData\Roaming\Python\Python37\site-packages;C:\Users\Jacob\AppData\Local\Programs\Python\Python37\lib\site-packages;C:\Users\Jacob\AppData\Local\Programs\Python\Python37\lib\site-packages\dlib-19.21.0-py3.7-win-amd64.egg;C:\Users\Jacob\AppData\Local\Programs\Python\Python37\lib\site-packages\win32;C:\Users\Jacob\AppData\Local\Programs\Python\Python37\lib\site-packages\win32\lib;C:\Users\Jacob\AppData\Local\Programs\Python\Python37\lib\site-packages\Pythonwin
+DLL PATH: C:\Users\Jacob\AppData\Local\Programs\Python\Python37\lib\site-packages\PyQt5\Qt\bin;C:\Users\Jacob\AppData\Local\Programs\Python\Python37\lib\site-packages\pywin32_system32;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Oculus\Support\oculus-runtime;C:\Perl64\bin;C:\Users\Jacob\AppData\Roaming\ActiveState\bin;C:\Program Files (x86)\Pololu\Maestro\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\GnuWin32;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\MATLAB\R2020b\bin;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Jacob\Documents\cmake-3.18.2-win64-x64\bin;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\MATLAB\R2020a\runtime\win64;C:\Program Files\MATLAB\R2020a\bin;C:\Program Files\MATLAB\MATLAB Runtime\v98\runtime\win64;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;"; C:\cygwin\bin";C:\Program Files\CMake\bin;C:\Users\Jacob\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Jacob\AppData\Local\Programs\Python\Python37\;C:\Users\Jacob\AppData\Local\Microsoft\WindowsApps;C:\Users\Jacob\AppData\Local\atom\bin;C:\Users\Jacob\AppData\Roaming\npm;C:\Users\Jacob\AppData\Local\GitHubDesktop\bin;C:\Users\Jacob\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Program Files\heroku\bin;C:\Users\Jacob\AppData\Local\Microsoft\WindowsApps;C:\Users\Jacob\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Jacob\AppData\Local\Programs\MiKTeX\miktex\bin\x64\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\IBM\SPSS\Statistics\25\JRE\bin
+SYS.VERSION: 3.7.3 (v3.7.3:ef4ec6ed12, Mar 25 2019, 22:22:05) [MSC v.1916 64 bit (AMD64)]
+SYS.PLATFORM: win32
+SYS.EXECUTABLE: C:\Users\Jacob\AppData\Local\Programs\Python\Python37\python.exe
+PLATFORM.MACHINE: AMD64
+PLATFORM.PROCESSOR: Intel64 Family 6 Model 158 Stepping 12, GenuineIntel
+PLATFORM.UNAME.RELEASE: 10
+PLATFORM.WIN32_VER: 10 10.0.19041 SP0 Multiprocessor Free
+NUMPY.VERSION: 1.18.5
+QT.VERSION: 5.12.3
+QT.JPG_SUPPORT: supported
+QT.SVG_SUPPORT: supported
+QT.PLUGIN_PATH: C:/Users/Jacob/AppData/Local/Programs/Python/Python37/lib/site-packages/PyQt5/Qt/plugins;C:/Users/Jacob/AppData/Local/Programs/Python/Python37
+QT.PLUGIN_PATH_ENV: 
+QT.CONF: NOT PRESENT
+PYOPENGL.VERSION: 3.1.5
+NOSHADERS: not set
+NOSAMPLEBUFFERS: not set
+GL.VENDOR: NVIDIA Corporation
+GL.RENDERER: NVIDIA GeForce RTX 2060/PCIe/SSE2
+GL.VERSION: 4.6.0 NVIDIA 466.77
+GLSL.VERSION: 4.60 NVIDIA
+GL.EXTENSION: GL_ARB_multisample enabled (4x samples)
+GL.EXTENSION: GL_ARB_texture_non_power_of_two enabled

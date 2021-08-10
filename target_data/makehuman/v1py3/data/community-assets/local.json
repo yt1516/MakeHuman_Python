@@ -1,0 +1,120 @@
+{
+  "material": {
+    "489": {
+      "file": "C:\\Users\\Jacob\\Documents\\makehuman\\v1py3\\data\\materials\\Harvey_eye1\\Harvey_eye1.mhmat",
+      "modified": "2021-05-19 20:44:14"
+    },
+    "490": {
+      "file": "C:\\Users\\Jacob\\Documents\\makehuman\\v1py3\\data\\materials\\Harvey_eye2\\Harvey_eye2.mhmat",
+      "modified": "2021-05-19 20:44:18"
+    },
+    "527": {
+      "file": "C:\\Users\\Jacob\\Documents\\makehuman\\v1py3\\data\\materials\\brown_eye_02\\brown_02.mhmat",
+      "modified": "2021-05-19 20:44:26"
+    },
+    "489": {
+      "file": "C:\\Users\\Jacob\\Documents\\makehuman\\v1py3\\data\\materials\\Harvey_eye1\\Harvey_eye1.mhmat",
+      "modified": "2021-05-20 19:00:27"
+    },
+    "490": {
+      "file": "C:\\Users\\Jacob\\Documents\\makehuman\\v1py3\\data\\materials\\Harvey_eye2\\Harvey_eye2.mhmat",
+      "modified": "2021-05-20 19:00:33"
+    },
+    "1006": {
+      "file": "C:\\Users\\Jacob\\Documents\\makehuman\\v1py3\\data\\hair\\short04\\short04_Blonde.mhmat",
+      "modified": "2021-05-20 19:01:19"
+    },
+    "1010": {
+      "file": "C:\\Users\\Jacob\\Documents\\makehuman\\v1py3\\data\\hair\\short04\\short04_Gray.mhmat",
+      "modified": "2021-05-20 19:01:30"
+    },
+    "1941": {
+      "file": "C:\\Users\\Jacob\\Documents\\makehuman\\v1py3\\data\\hair\\short02\\short02_mat_04.mhmat",
+      "modified": "2021-05-20 19:03:43"
+    },
+    "1937": {
+      "file": "C:\\Users\\Jacob\\Documents\\makehuman\\v1py3\\data\\hair\\short02\\short02_mat_02.mhmat",
+      "modified": "2021-05-20 19:03:48"
+    },
+    "2645": {
+      "file": "C:\\Users\\Jacob\\Documents\\makehuman\\v1py3\\data\\hair\\Blunt_Bob\\bob_blunt_Blonde.mhmat",
+      "modified": "2021-05-20 19:04:37"
+    }
+  },
+  "model": {},
+  "clothes": {},
+  "hair": {
+    "1669": {
+      "file": "C:\\Users\\Jacob\\Documents\\makehuman\\v1py3\\data\\hair\\Blunt_Bob\\bob_blunt.mhclo",
+      "modified": "2021-05-20 19:05:32"
+    }
+  },
+  "teeth": {},
+  "eyebrows": {},
+  "eyelashes": {},
+  "tongue": {},
+  "eyes": {},
+  "proxy": {},
+  "skin": {
+    "186": {
+      "file": "C:\\Users\\Jacob\\Documents\\makehuman\\v1py3\\data\\skins\\Modified_Caucasian_Female_skin_Darker_More_visible_nipple\\Nipple_Skin.mhmat",
+      "modified": "2021-05-19 20:40:03"
+    },
+    "359": {
+      "file": "C:\\Users\\Jacob\\Documents\\makehuman\\v1py3\\data\\skins\\Harvey_young_lightskinned_female_diffuse2_tanlines_1\\young_lightskinned_female_diffuse2_tanlines_1.mhmat",
+      "modified": "2021-05-19 20:40:26"
+    },
+    "526": {
+      "file": "C:\\Users\\Jacob\\Documents\\makehuman\\v1py3\\data\\skins\\skin_male_african_middleage\\skin_male_african_middleage.mhmat",
+      "modified": "2021-05-19 20:40:44"
+    },
+    "1125": {
+      "file": "C:\\Users\\Jacob\\Documents\\makehuman\\v1py3\\data\\skins\\Light_Skin_with_Natural_Makeup\\lightskinfemale_natural_makeup.mhmat",
+      "modified": "2021-05-19 20:41:30"
+    },
+    "1129": {
+      "file": "C:\\Users\\Jacob\\Documents\\makehuman\\v1py3\\data\\skins\\Light_Skin_Female_Bronze_with_Makeup\\light_skin_female_bronze_makeup.mhmat",
+      "modified": "2021-05-19 20:41:38"
+    },
+    "1130": {
+      "file": "C:\\Users\\Jacob\\Documents\\makehuman\\v1py3\\data\\skins\\Light_Skin_Female_Ginger\\light_skin_female_ginger.mhmat",
+      "modified": "2021-05-19 20:41:45"
+    },
+    "1132": {
+      "file": "C:\\Users\\Jacob\\Documents\\makehuman\\v1py3\\data\\skins\\Light_Skin_Female_Ginger_2\\light_skin_female_ginger2.mhmat",
+      "modified": "2021-05-19 20:41:53"
+    },
+    "1133": {
+      "file": "C:\\Users\\Jacob\\Documents\\makehuman\\v1py3\\data\\skins\\Light_Skin_Female_Bronze\\light_skin_female_bronze.mhmat",
+      "modified": "2021-05-19 20:42:00"
+    },
+    "1134": {
+      "file": "C:\\Users\\Jacob\\Documents\\makehuman\\v1py3\\data\\skins\\Light_Skin_Female_Freckles\\light_skin_female_freckles.mhmat",
+      "modified": "2021-05-19 20:42:06"
+    },
+    "1135": {
+      "file": "C:\\Users\\Jacob\\Documents\\makehuman\\v1py3\\data\\skins\\Light_Skin_Male_Ginger\\light_skin_male_ginger.mhmat",
+      "modified": "2021-05-19 20:42:17"
+    },
+    "1136": {
+      "file": "C:\\Users\\Jacob\\Documents\\makehuman\\v1py3\\data\\skins\\Light_Skin_Male_Bronze\\light_skin_male_bronze.mhmat",
+      "modified": "2021-05-19 20:42:26"
+    },
+    "1137": {
+      "file": "C:\\Users\\Jacob\\Documents\\makehuman\\v1py3\\data\\skins\\Light_Skin_Male_Freckles\\light_skin_male_freckles.mhmat",
+      "modified": "2021-05-19 20:42:33"
+    },
+    "526": {
+      "file": "C:\\Users\\Jacob\\Documents\\makehuman\\v1py3\\data\\skins\\skin_male_african_middleage\\skin_male_african_middleage.mhmat",
+      "modified": "2021-05-20 19:06:39"
+    },
+    "2013": {
+      "file": "C:\\Users\\Jacob\\Documents\\makehuman\\v1py3\\data\\skins\\Young_Filipina_Female_with_Genitals\\young_filipina_with_genitals.mhmat",
+      "modified": "2021-05-20 19:07:34"
+    }
+  },
+  "pose": {},
+  "expression": {},
+  "rig": {},
+  "target": {}
+}

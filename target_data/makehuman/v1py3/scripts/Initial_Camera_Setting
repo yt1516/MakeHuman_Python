@@ -1,0 +1,183 @@
+import os
+import cv2
+import dlib
+import numpy as np
+import math
+
+global np
+global cv2
+global dlib
+global math
+
+
+def txt_gen(img_name,detector,predictor):
+    img = cv2.imread(img_name)
+    gray=cv2.cvtColor(src=img,code=cv2.COLOR_BGR2GRAY)
+    faces=detector(gray)
+    pointsArray = [];
+
+    for face in faces:
+        x1 = face.left()
+        y1 = face.top()
+        x2 = face.right()
+        y2 = face.bottom()
+
+        landmarks=predictor(image=gray,box=face)
+
+        for n in range(0,68):
+
+            x=landmarks.part(n).x
+            y=landmarks.part(n).y
+
+#            cv2.circle(img=img, center=(x,y),radius=5,color=(0,255,0),thickness=-1)
+
+            points = (int(x), int(y));
+
+            pointsArray.append(points)
+    return pointsArray
+
+
+def readImages(filetitle):
+    imagesArray = []
+    for file in os.listdir():
+        if file==filetitle:
+            img = cv2.imread(filetitle)
+            img = np.float32(img)/255.0
+            imagesArray.append(img)
+    return imagesArray
+
+def readPoints(filetitle):
+    pointsArray=[]
+    for files in os.listdir():
+        if files[0:9]==filetitle[0:9] and files.endswith('.txt'):
+#             filetitle=files+'.txt'
+            points = [];
+            print(files)
+            with open(files) as file :
+                for line in file :
+                    x, y = line.split()
+                    points.append((int(x), int(y)))
+            pointsArray.append(points)
+    return pointsArray
+
+def similarityTransform(inPoints, outPoints) :
+    s60 = math.sin(60*math.pi/180);
+    c60 = math.cos(60*math.pi/180);
+
+    inPts = np.copy(inPoints).tolist();
+    outPts = np.copy(outPoints).tolist();
+
+    xin = c60*(inPts[0][0] - inPts[1][0]) - s60*(inPts[0][1] - inPts[1][1]) + inPts[1][0];
+    yin = s60*(inPts[0][0] - inPts[1][0]) + c60*(inPts[0][1] - inPts[1][1]) + inPts[1][1];
+
+    inPts.append([np.int(xin), np.int(yin)]);
+
+    xout = c60*(outPts[0][0] - outPts[1][0]) - s60*(outPts[0][1] - outPts[1][1]) + outPts[1][0];
+    yout = s60*(outPts[0][0] - outPts[1][0]) + c60*(outPts[0][1] - outPts[1][1]) + outPts[1][1];
+
+    outPts.append([np.int(xout), np.int(yout)]);
+
+    tform = cv2.estimateRigidTransform(np.array([inPts]), np.array([outPts]), False);
+
+    return tform;
+
+def draw_point(img, p, color ) :
+    cv2.circle(img, p, 5, color, -1, cv2.LINE_AA, 0 )
+
+def difference(point1,point2):
+    import math
+    (x1,y1)=point1
+    (x2,y2)=point2
+    log.debug(x1)
+    log.debug(y1)
+    log.debug(x2)
+    log.debug(y2)
+    result=math.sqrt((x2-x1)**2+(y2-y1)**2)
+    log.debug(result)
+    return result
+
+def difference_new(point1,point2):
+    import math
+    (x1,y1)=point1
+    (x2,y2)=point2
+    x_diff=x1-x2
+    y_diff=y1-y2
+    return(x_diff,y_diff)
+
+w=1500
+h=1500
+
+eyecornerDst = [(100, 450), (1400, 450)];
+
+detector=dlib.get_frontal_face_detector()
+predictor=dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
+
+MH_img='initial.png'
+MH_landmarks=txt_gen(MH_img,detector,predictor)
+
+Man_img='mwt.jpg'
+Man_landmarks=txt_gen(Man_img,detector,predictor)
+
+error_l=difference_new(MH_landmarks[0],Man_landmarks[0])
+
+error_r=difference_new(MH_landmarks[16],Man_landmarks[16])
+
+error_track=[]
+error_track.append([error_l,error_r])
+
+zoom_c=1
+move_c=1
+#zoom=13
+#move=0.83
+zoom=12
+move=0.83
+
+multiplier_2=1
+zoom_step=0.01
+move_step=0.001
+
+error_sum=abs(error_l[0])+abs(error_l[1])+abs(error_r[0])+abs(error_r[1])
+
+last_sum=error_sum
+
+for count in range(50):
+    if error_sum >= 20:
+        
+        G.app.modelCamera._horizontalRotation=0
+        G.app.modelCamera._verticalInclination=0
+
+        if error_l[0]>0 and error_r[0]<0:
+            zoom_c=1
+        else:
+            zoom_c=-1
+
+        if error_l[1]<0 and error_r[1]<0:
+            move_c=1
+        else:
+            move_c=-1
+
+        zoom = zoom + zoom_c*zoom_step
+        move = move + move_c*move_step
+        
+        G.app.modelCamera.translation=[0,move,0]
+        G.app.modelCamera.zoomFactor=zoom
+        G.app.modelCamera._upY=0.2
+        G.app.modelCamera._eyeX=0
+        G.app.modelCamera._eyeZ=0
+        MHScript.screenShot('initial.png')
+        MH_img='initial.png'
+        MH_landmarks=txt_gen(MH_img,detector,predictor)
+        
+        Man_img='mwt.jpg'
+        Man_landmarks=txt_gen(Man_img,detector,predictor)
+        
+        error_l=difference_new(MH_landmarks[0],Man_landmarks[0])
+        
+        error_r=difference_new(MH_landmarks[16],Man_landmarks[16])
+
+        error_sum=abs(error_l[0])+abs(error_l[1])+abs(error_r[0])+abs(error_r[1])
+
+        log.debug(error_sum)
+
+        if abs(error_sum-last_sum)<=5:
+            break

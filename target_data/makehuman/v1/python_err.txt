@@ -1,0 +1,482 @@
+data/VERSION file detected using value from version file: 2128:2d119491670c
+Initialized logging
+VERSION: 1.1.1
+HG REVISION: r2128 (2d119491670c) [data/VERSION static revision data]
+SHORT VERSION: v1.1.1
+BASEMESH VERSION: hm08
+IS BUILT (FROZEN): Yes
+IS RELEASE VERSION: Yes
+DEFAULT ENCODING: utf-8
+FILESYSTEM ENCODING: mbcs
+STDOUT ENCODING: cp1252
+WORKING DIRECTORY: C:\Users\Jacob\Documents\Facial Expression Rendering for Abdominal Palpation\MakeHuman
+HOME LOCATION: C:/Users/Jacob/Documents
+PYTHON PATH: ./;./lib;./apps;./shared;./apps/gui;./core;C:\Users\Jacob\DOCUME~1\Facial Expression Rendering for Abdominal Palpation\MakeHuman
+DLL PATH: .;C:\Users\Jacob\Documents\Facial Expression Rendering for Abdominal Palpation\MakeHuman;C:\Program Files (x86)\Pololu\Maestro\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\Program Files (x86)\GnuWin32;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\MATLAB\R2020b\bin;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Jacob\Documents\cmake-3.18.2-win64-x64\bin;C:\Users\Jacob\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\Jacob\AppData\Local\Programs\Python\Python37\;C:\Users\Jacob\AppData\Local\Microsoft\WindowsApps;C:\Users\Jacob\AppData\Local\atom\bin;C:\Users\Jacob\AppData\Roaming\npm;C:\Users\Jacob\AppData\Local\GitHubDesktop\bin;C:\Users\Jacob\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Program Files\heroku\bin;C:\Users\Jacob\AppData\Local\Microsoft\WindowsApps;;C:\Users\Jacob\AppData\Local\Programs\Microsoft VS Code\bin
+SYS.VERSION: 2.7.13 (v2.7.13:a06454b1afa1, Dec 17 2016, 20:42:59) [MSC v.1500 32 bit (Intel)]
+SYS.PLATFORM: win32
+SYS.EXECUTABLE: C:\Users\Jacob\Documents\Facial Expression Rendering for Abdominal Palpation\MakeHuman\makehuman.exe
+PLATFORM.MACHINE: AMD64
+PLATFORM.PROCESSOR: Intel64 Family 6 Model 158 Stepping 12, GenuineIntel
+PLATFORM.UNAME.RELEASE: 10
+PLATFORM.WIN32_VER: 10 10.0.18362 SP0 Multiprocessor Free
+NUMPY.VERSION: 1.11.2
+OpenGL_accelerate module loaded
+Using accelerated ArrayDatatype
+PYQT.VERSION: 4.8.7
+PYQT.JPG_SUPPORT: supported
+PYQT.SVG_SUPPORT: supported
+QT.PLUGIN_PATH: C:\Users\Jacob\DOCUME~1\Facial Expression Rendering for Abdominal Palpation\MakeHuman\qt4_plugins;C:/Users/Jacob/Documents/Facial Expression Rendering for Abdominal Palpation/MakeHuman
+QT.PLUGIN_PATH_ENV: 
+QT.CONF: [Paths]
+         Prefix = .
+         Plugins = qt4_plugins
+PYOPENGL.VERSION: 3.1.0
+GL.VENDOR: NVIDIA Corporation
+GL.RENDERER: GeForce RTX 2060/PCIe/SSE2
+GL.VERSION: 4.6.0 NVIDIA 456.38
+GLSL.VERSION: 4.60 NVIDIA
+Unable to load numpy_formathandler accelerator from OpenGL_accelerate
+GL.EXTENSION: GL_ARB_multisample enabled (4x samples)
+Creating new texture for image data/textures/texture_notfound.png.
+GL.EXTENSION: GL_ARB_texture_non_power_of_two enabled
+initTexture: 256, 256, False
+Setting language to english
+Setting language to english
+Initializing default theme first.
+Theme default version 1.1.0
+Loaded theme data/themes/default.mht
+Using Qt system style windowsvista
+Loading human
+Loading binary mesh data/3dobjs/base.npz.
+Loading material from file data/skins/default.mhmat
+C:\Users\Jacob\DOCUME~1\Facial Expression Rendering for Abdominal Palpation\MakeHuman\OpenGL\GL\VERSION\GL_2_0.py:374: FutureWarning: comparison to `None` will result in an elementwise object comparison in the future.
+
+Shader: adding built-in uniform gl_ModelViewProjectionMatrixTranspose
+Shader: adding built-in uniform gl_NormalMatrix
+Loaded vertex weights MakeHuman weights from file C:/Users/Jacob/Documents/Facial Expression Rendering for Abdominal Palpation/MakeHuman/data/rigs/default_weights.mhw
+Loading scene
+Loading scene file: data/scenes/default.mhscene
+Loading main GUI
+Assigning setting loaddir value C:\Users\Jacob\Documents\Facial Expression Rendering for Abdominal Palpation\Blender Files that was loaded before the setting was declared.
+Assigning setting savedir value C:\Users\Jacob\Documents\Facial Expression Rendering for Abdominal Palpation\Blender Files\MHX2 3 Ethnicity 2 Genders that was loaded before the setting was declared.
+Assigning setting exportdir value C:\Users\Jacob\Documents\Connor RA Role Application that was loaded before the setting was declared.
+Loading plugins
+Importing plugin 0_modeling_0_modifiers
+Imported plugin 0_modeling_0_modifiers
+Loading plugin 0_modeling_0_modifiers
+Loading modifiers from data/modifiers/modeling_modifiers.json
+Attempting to load targets from NPZ file.
+1258 targets loaded from NPZ file succesfully.
+Loaded 249 modifiers from file data/modifiers/modeling_modifiers.json
+Loaded 249 modifier descriptions from file data/modifiers/modeling_modifiers_desc.json
+Loaded plugin 0_modeling_0_modifiers
+Importing plugin 0_modeling_8_random
+Imported plugin 0_modeling_8_random
+Loading plugin 0_modeling_8_random
+Loaded plugin 0_modeling_8_random
+Importing plugin 0_modeling_9_custom_targets
+Imported plugin 0_modeling_9_custom_targets
+Loading plugin 0_modeling_9_custom_targets
+Loaded plugin 0_modeling_9_custom_targets
+Importing plugin 0_modeling_a_measurement
+Imported plugin 0_modeling_a_measurement
+Loading plugin 0_modeling_a_measurement
+Loading modifiers from data/modifiers/measurement_modifiers.json
+Loaded 20 modifiers from file data/modifiers/measurement_modifiers.json
+Loaded 20 modifier descriptions from file data/modifiers/measurement_modifiers_desc.json
+Loaded plugin 0_modeling_a_measurement
+Importing plugin 0_modeling_background
+Imported plugin 0_modeling_background
+Loading plugin 0_modeling_background
+Loaded plugin 0_modeling_background
+Importing plugin 1_mhapi
+Imported plugin 1_mhapi
+Loading plugin 1_mhapi
+Loaded plugin 1_mhapi
+Importing plugin 2_foot_posing
+Imported plugin 2_foot_posing
+Loading plugin 2_foot_posing
+Loaded plugin 2_foot_posing
+Importing plugin 2_posing_expression
+Imported plugin 2_posing_expression
+Loading plugin 2_posing_expression
+Loaded plugin 2_posing_expression
+Importing plugin 3_libraries_clothes_chooser
+Imported plugin 3_libraries_clothes_chooser
+Loading plugin 3_libraries_clothes_chooser
+Loaded plugin 3_libraries_clothes_chooser
+Importing plugin 3_libraries_eye_chooser
+Imported plugin 3_libraries_eye_chooser
+Loading plugin 3_libraries_eye_chooser
+Selecting proxy file "data/eyes/high-poly/high-poly.mhclo" from eyes library.
+Loading binary proxy data/eyes/high-poly/high-poly.mhpxy.
+Loading proxy file: data/eyes/high-poly/high-poly.mhpxy.
+Loading material from file C:/Users/Jacob/Documents/Facial Expression Rendering for Abdominal Palpation/MakeHuman/data/eyes/materials/brown.mhmat
+VectorUniform(AdditiveShading) = [ 0.]
+Shader: adding built-in uniform gl_ModelViewProjectionMatrixTranspose
+Shader: adding built-in uniform gl_NormalMatrix
+VectorUniform(AdditiveShading) = [ 0.]
+Loading binary mesh C:/Users/Jacob/Documents/Facial Expression Rendering for Abdominal Palpation/MakeHuman/data/eyes/high-poly/high-poly.npz.
+Loaded plugin 3_libraries_eye_chooser
+Importing plugin 3_libraries_eyebrows
+Imported plugin 3_libraries_eyebrows
+Loading plugin 3_libraries_eyebrows
+Loaded plugin 3_libraries_eyebrows
+Importing plugin 3_libraries_eyelashes
+Imported plugin 3_libraries_eyelashes
+Loading plugin 3_libraries_eyelashes
+Loaded plugin 3_libraries_eyelashes
+Importing plugin 3_libraries_material_chooser
+Imported plugin 3_libraries_material_chooser
+Loading plugin 3_libraries_material_chooser
+Loaded plugin 3_libraries_material_chooser
+Importing plugin 3_libraries_polygon_hair_chooser
+Imported plugin 3_libraries_polygon_hair_chooser
+Loading plugin 3_libraries_polygon_hair_chooser
+Loaded plugin 3_libraries_polygon_hair_chooser
+Importing plugin 3_libraries_pose
+Imported plugin 3_libraries_pose
+Loading plugin 3_libraries_pose
+Loaded plugin 3_libraries_pose
+Importing plugin 3_libraries_proxy_chooser
+Imported plugin 3_libraries_proxy_chooser
+Loading plugin 3_libraries_proxy_chooser
+Loaded plugin 3_libraries_proxy_chooser
+Importing plugin 3_libraries_skeleton
+Imported plugin 3_libraries_skeleton
+Loading plugin 3_libraries_skeleton
+Loaded plugin 3_libraries_skeleton
+Importing plugin 3_libraries_teeth
+Imported plugin 3_libraries_teeth
+Loading plugin 3_libraries_teeth
+Loaded plugin 3_libraries_teeth
+Importing plugin 3_libraries_tongue
+Imported plugin 3_libraries_tongue
+Loading plugin 3_libraries_tongue
+Loaded plugin 3_libraries_tongue
+Importing plugin 4_rendering_9_viewer
+Imported plugin 4_rendering_9_viewer
+Loading plugin 4_rendering_9_viewer
+Loaded plugin 4_rendering_9_viewer
+Importing plugin 4_rendering_opengl
+Imported plugin 4_rendering_opengl
+Loading plugin 4_rendering_opengl
+Assigning setting rendering_width value 1000 that was loaded before the setting was declared.
+Assigning setting rendering_height value 1000 that was loaded before the setting was declared.
+Assigning setting GL_RENDERER_SSS value False that was loaded before the setting was declared.
+Assigning setting GL_RENDERER_AA value True that was loaded before the setting was declared.
+Loaded plugin 4_rendering_opengl
+Importing plugin 4_rendering_scene
+Imported plugin 4_rendering_scene
+Loading plugin 4_rendering_scene
+Setting rendering_width is already declared. Adding it again has no effect.
+Setting rendering_height is already declared. Adding it again has no effect.
+Loaded plugin 4_rendering_scene
+Importing plugin 5_settings_0_settings
+Imported plugin 5_settings_0_settings
+Loading plugin 5_settings_0_settings
+Setting language to english
+Theme makehuman version 1.1.0
+Loaded theme data/themes/makehuman.mht
+Loaded Qt style data/themes/makehuman.qss
+Loaded plugin 5_settings_0_settings
+Importing plugin 5_settings_mouse
+Imported plugin 5_settings_mouse
+Loading plugin 5_settings_mouse
+Loaded plugin 5_settings_mouse
+Importing plugin 5_settings_shortcuts
+Imported plugin 5_settings_shortcuts
+Loading plugin 5_settings_shortcuts
+Loaded plugin 5_settings_shortcuts
+Importing plugin 6_help
+Imported plugin 6_help
+Loading plugin 6_help
+Loaded plugin 6_help
+Importing plugin 7_PainFace_Generator
+Imported plugin 7_PainFace_Generator
+Loading plugin 7_PainFace_Generator
+Loaded plugin 7_PainFace_Generator
+Importing plugin 7_expression_mixer
+Imported plugin 7_expression_mixer
+Loading plugin 7_expression_mixer
+Loaded plugin 7_expression_mixer
+Importing plugin 7_logging
+Imported plugin 7_logging
+Loading plugin 7_logging
+Loaded plugin 7_logging
+Importing plugin 8_asset_downloader
+Imported plugin 8_asset_downloader
+Loading plugin 8_asset_downloader
+Loaded plugin 8_asset_downloader
+Importing plugin 8_server_socket
+Imported plugin 8_server_socket
+Loading plugin 8_server_socket
+Loaded plugin 8_server_socket
+Importing plugin 9_FACS_scene_editor
+Imported plugin 9_FACS_scene_editor
+Loading plugin 9_FACS_scene_editor
+Assigning setting Scene_Editor_FileDlgPath value C:/Users/Jacob/Documents/makehuman/v1/data/scenes that was loaded before the setting was declared.
+Loaded plugin 9_FACS_scene_editor
+Importing plugin 9_export_bvh
+Imported plugin 9_export_bvh
+Loading plugin 9_export_bvh
+Loaded plugin 9_export_bvh
+Importing plugin 9_export_collada
+Imported plugin 9_export_collada
+Loading plugin 9_export_collada
+Loaded plugin 9_export_collada
+Importing plugin 9_export_fbx
+Imported plugin 9_export_fbx
+Loading plugin 9_export_fbx
+Loaded plugin 9_export_fbx
+Importing plugin 9_export_light
+Imported plugin 9_export_light
+Loading plugin 9_export_light
+Loaded plugin 9_export_light
+Importing plugin 9_export_mhx2
+Imported plugin 9_export_mhx2
+Loading plugin 9_export_mhx2
+Loaded plugin 9_export_mhx2
+Importing plugin 9_export_obj
+Imported plugin 9_export_obj
+Loading plugin 9_export_obj
+Loaded plugin 9_export_obj
+Importing plugin 9_export_ogre
+Imported plugin 9_export_ogre
+Loading plugin 9_export_ogre
+Loaded plugin 9_export_ogre
+Importing plugin 9_export_stl
+Imported plugin 9_export_stl
+Loading plugin 9_export_stl
+Loaded plugin 9_export_stl
+Importing plugin 9_export_uvmap
+Imported plugin 9_export_uvmap
+Loading plugin 9_export_uvmap
+Loaded plugin 9_export_uvmap
+Loading GUI
+showing category Modelling
+showing task Macro modelling
+Loading theme
+Theme makehuman version 1.1.0
+Loaded theme data/themes/makehuman.mht
+Loaded Qt style data/themes/makehuman.qss
+Applying targets
+Updating skeleton joint positions
+Done baking animations
+Loading macro targets
+Loading done
+
+Creating new texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+initTexture: 256, 256, False
+Creating new texture for image C:/Users/Jacob/Documents/Facial Expression Rendering for Abdominal Palpation/MakeHuman/data/eyes/materials/brown_eye.png.
+initTexture: 1024, 1024, False
+Creating new texture for image C:/Users/Jacob/Documents/Facial Expression Rendering for Abdominal Palpation/MakeHuman/data/litspheres/skinmat_eye.png.
+initTexture: 256, 256, False
+hiding task Macro modelling
+showing task Pain Face Generator
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/28_bottom.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/03 Lip Parting and Jaw Opening/25_a.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/L14.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/L15.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/22_25_upper.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/L10.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/L11.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/L12.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/L13.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/03 Lip Parting and Jaw Opening/26.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/03 Lip Parting and Jaw Opening/26_a.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/03 Lip Parting and Jaw Opening/26_tongue_out.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/24.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/03 Lip Parting and Jaw Opening/25.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/R14.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/R15.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/R12.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/R13.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/R10.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/R11.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/23.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/28.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/01 Upper Face AUs/43.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/01 Upper Face AUs/1.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/L20.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/03 Lip Parting and Jaw Opening/26_lip_down.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/01 Upper Face AUs/2.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/01 Upper Face AUs/5.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/01 Upper Face AUs/4.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/01 Upper Face AUs/7.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/01 Upper Face AUs/6.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/9.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/03 Lip Parting and Jaw Opening/L25.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/03 Lip Parting and Jaw Opening/26_tongue_down.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/22_25_up_down.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/01 Upper Face AUs/L43.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/01 Upper Face AUs/R5.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/01 Upper Face AUs/R6.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/01 Upper Face AUs/R7.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/01 Upper Face AUs/R1.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/01 Upper Face AUs/R2.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/22_25_down.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/R9.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/01 Upper Face AUs/L6.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/01 Upper Face AUs/L7.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/12_b.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/01 Upper Face AUs/L5.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/01 Upper Face AUs/L2.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/01 Upper Face AUs/6_a.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/01 Upper Face AUs/6_b.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/01 Upper Face AUs/L1.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/20.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/28_a.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/L9.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/11.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/10.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/13.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/12.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/15.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/14.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/17.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/12_a.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/01 Upper Face AUs/4_b.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/18.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/01 Upper Face AUs/4_a.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/16.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/01 Upper Face AUs/R43.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/01 Upper Face AUs/2_a.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/03 Lip Parting and Jaw Opening/R25.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/R20.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/17_a.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/9_a.index
+compiled file missing: ../../../makehuman/v1/data/FACSHuman/02 Lower Face AUs/18_a.index
+Updating skeleton joint positions
+Done baking animations
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+Updating skeleton joint positions
+Done baking animations
+Updating skeleton joint positions
+Done baking animations
+Updating skeleton joint positions
+Done baking animations
+Updating skeleton joint positions
+Done baking animations
+Updating skeleton joint positions
+Done baking animations
+do Change modifier
+Updating skeleton joint positions
+Done baking animations
+Updating skeleton joint positions
+Done baking animations
+Updating skeleton joint positions
+Done baking animations
+Updating skeleton joint positions
+Done baking animations
+Updating skeleton joint positions
+Done baking animations
+Updating skeleton joint positions
+Done baking animations
+Updating skeleton joint positions
+Done baking animations
+Updating skeleton joint positions
+Done baking animations
+Updating skeleton joint positions
+Done baking animations
+Updating skeleton joint positions
+Done baking animations
+Updating skeleton joint positions
+Done baking animations
+Updating skeleton joint positions
+Done baking animations
+Updating skeleton joint positions
+Done baking animations
+Unloading plugin 9_export_obj
+Unloaded plugin 9_export_obj
+Unloading plugin 8_asset_downloader
+Unloaded plugin 8_asset_downloader
+Unloading plugin 5_settings_shortcuts
+Unloaded plugin 5_settings_shortcuts
+Unloading plugin 4_rendering_scene
+Unloaded plugin 4_rendering_scene
+Unloading plugin 9_export_collada
+Unloaded plugin 9_export_collada
+Unloading plugin 5_settings_0_settings
+Unloaded plugin 5_settings_0_settings
+Unloading plugin 3_libraries_clothes_chooser
+Unloaded plugin 3_libraries_clothes_chooser
+Unloading plugin 5_settings_mouse
+Unloaded plugin 5_settings_mouse
+Unloading plugin 3_libraries_proxy_chooser
+Unloaded plugin 3_libraries_proxy_chooser
+Unloading plugin 2_posing_expression
+Unloaded plugin 2_posing_expression
+Unloading plugin 0_modeling_8_random
+Unloaded plugin 0_modeling_8_random
+Unloading plugin 1_mhapi
+Unloaded plugin 1_mhapi
+Unloading plugin 3_libraries_material_chooser
+Unloaded plugin 3_libraries_material_chooser
+Unloading plugin 0_modeling_0_modifiers
+Unloaded plugin 0_modeling_0_modifiers
+Unloading plugin 7_PainFace_Generator
+Unloaded plugin 7_PainFace_Generator
+Unloading plugin 9_FACS_scene_editor
+Unloaded plugin 9_FACS_scene_editor
+Unloading plugin 9_export_stl
+Unloaded plugin 9_export_stl
+Unloading plugin 4_rendering_opengl
+Unloaded plugin 4_rendering_opengl
+Unloading plugin 3_libraries_polygon_hair_chooser
+Unloaded plugin 3_libraries_polygon_hair_chooser
+Unloading plugin 0_modeling_9_custom_targets
+Unloaded plugin 0_modeling_9_custom_targets
+Unloading plugin 9_export_light
+Unloaded plugin 9_export_light
+Unloading plugin 3_libraries_eyelashes
+Unloaded plugin 3_libraries_eyelashes
+Unloading plugin 7_logging
+Unloaded plugin 7_logging
+Unloading plugin 4_rendering_9_viewer
+Unloaded plugin 4_rendering_9_viewer
+Unloading plugin 9_export_bvh
+Unloaded plugin 9_export_bvh
+Unloading plugin 2_foot_posing
+Unloaded plugin 2_foot_posing
+Unloading plugin 6_help
+Unloaded plugin 6_help
+Unloading plugin 3_libraries_skeleton
+Unloaded plugin 3_libraries_skeleton
+Unloading plugin 3_libraries_eye_chooser
+Unloaded plugin 3_libraries_eye_chooser
+Unloading plugin 7_expression_mixer
+Unloaded plugin 7_expression_mixer
+Unloading plugin 3_libraries_tongue
+Unloaded plugin 3_libraries_tongue
+Unloading plugin 3_libraries_teeth
+Unloaded plugin 3_libraries_teeth
+Unloading plugin 9_export_mhx2
+Unloaded plugin 9_export_mhx2
+Unloading plugin 3_libraries_pose
+Unloaded plugin 3_libraries_pose
+Unloading plugin 0_modeling_background
+Unloaded plugin 0_modeling_background
+Unloading plugin 9_export_uvmap
+Unloaded plugin 9_export_uvmap
+Unloading plugin 8_server_socket
+Could not unload 8_server_socket
+Traceback (most recent call last):
+  File "core\mhmain.py", line 559, in unloadPlugins
+  File "plugins/8_server_socket\__init__.py", line 226, in unload
+    with open(cfgFile, 'w', encoding='utf-8') as f:
+TypeError: 'encoding' is an invalid keyword argument for this function
+Unloading plugin 0_modeling_a_measurement
+Unloaded plugin 0_modeling_a_measurement
+Unloading plugin 9_export_ogre
+Unloaded plugin 9_export_ogre
+Unloading plugin 3_libraries_eyebrows
+Unloaded plugin 3_libraries_eyebrows
+Unloading plugin 9_export_fbx
+Unloaded plugin 9_export_fbx
